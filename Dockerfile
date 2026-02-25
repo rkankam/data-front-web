@@ -19,8 +19,8 @@ ENV NEXT_TELEMETRY_DISABLED=1
 RUN addgroup -S nextjs && adduser -S nextjs -G nextjs
 
 COPY --from=builder /app/public ./public
-COPY --from=builder /app/.next/standalone ./
-COPY --from=builder /app/.next/static ./.next/static
+COPY --from=builder /app/producer_ai_dataset_env/spotify_dataset/web/.next/standalone/producer_ai_dataset_env/spotify_dataset/web ./
+COPY --from=builder /app/producer_ai_dataset_env/spotify_dataset/web/.next/static ./.next/static
 
 USER nextjs
 EXPOSE 3000

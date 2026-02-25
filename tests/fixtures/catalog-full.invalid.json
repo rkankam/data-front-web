@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "generatedAt": "2026-02-24",
+    "bucket": "producer-ai-dataset",
+    "sourcePrefix": "metadata/",
+    "count": 1,
+    "version": 1
+  },
+  "tracks": [
+    {
+      "id": "track-id",
+      "title": "Track title",
+      "durationSeconds": 120,
+      "audio": {
+        "publicUrl": "htp://broken-url",
+        "b2WavKey": "audio/track.wav",
+        "b2Mp3Key": "mp3/track.mp3"
+      },
+      "imageUrl": null,
+      "createdAt": null,
+      "model": null,
+      "stats": {
+        "playCount": -1,
+        "favoriteCount": 1,
+        "isFavorite": true
+      },
+      "privacy": {
+        "privacy": "unlisted",
+        "allowPublicUse": true,
+        "canUse": true
+      },
+      "tags": {
+        "sound": null,
+        "conditions": [
+          "ok"
+        ]
+      },
+      "source": {
+        "metadataKey": "",
+        "filename": "track.wav"
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "meta": {
+    "generatedAt": "2026-02-24T20:08:18.215747Z",
+    "bucket": "producer-ai-dataset",
+    "sourcePrefix": "metadata/",
+    "count": 1,
+    "version": 1
+  },
+  "tracks": [
+    {
+      "id": "a400b919-5ee7-4208-86f2-408af7551e95",
+      "title": "Track title",
+      "durationSeconds": 228.11,
+      "audioUrl": "https://example.com/audio.mp3",
+      "imageUrl": "https://example.com/image.jpg"
+    }
+  ]
+}

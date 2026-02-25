@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "generatedAt": "2026-02-24T20:08:18.215747Z",
+    "bucket": "producer-ai-dataset",
+    "sourcePrefix": "metadata/",
+    "count": 1,
+    "version": 1
+  },
+  "tracks": [
+    {
+      "id": "a400b919-5ee7-4208-86f2-408af7551e95",
+      "title": "Track title",
+      "durationSeconds": 228.11,
+      "audio": {
+        "publicUrl": "https://example.com/audio.m4a",
+        "b2WavKey": "audio/track.wav",
+        "b2Mp3Key": "mp3/track.mp3"
+      },
+      "imageUrl": "https://example.com/image.jpg",
+      "createdAt": "2025-12-22T12:40:06.519420Z",
+      "model": "FUZZ-2.0 Raw",
+      "stats": {
+        "playCount": 27,
+        "favoriteCount": 1,
+        "isFavorite": true
+      },
+      "privacy": {
+        "privacy": "unlisted",
+        "allowPublicUse": true,
+        "canUse": true
+      },
+      "tags": {
+        "sound": "prompt text",
+        "conditions": [
+          "condition 1"
+        ]
+      },
+      "source": {
+        "metadataKey": "metadata/track.json",
+        "filename": "track.wav"
+      }
+    }
+  ]
+}

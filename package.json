@@ -1,0 +1,51 @@
+{
+  "name": "web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "test:unit": "vitest run tests/player-store.spec.ts tests/search-engine.spec.ts tests/perf/search-benchmark.spec.ts",
+    "test:api": "vitest run tests/api",
+    "test:a11y": "vitest run tests/a11y",
+    "test:e2e:headless": "playwright test --project=chromium",
+    "test:headless": "npm run typecheck && npm run lint && npm run test && npm run test:e2e:headless",
+    "env:check": "node scripts/validate-env.mjs"
+  },
+  "dependencies": {
+    "next": "16.1.6",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "zod": "^4.1.8"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.10.2",
+    "@playwright/test": "^1.55.1",
+    "@tailwindcss/postcss": "^4",
+    "@testing-library/jest-dom": "^6.8.0",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^14.6.1",
+    "@types/jest-axe": "^3.5.9",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@vitest/coverage-v8": "^3.2.4",
+    "babel-plugin-react-compiler": "1.0.0",
+    "eslint": "^9",
+    "eslint-config-next": "16.1.6",
+    "jest-axe": "^10.0.0",
+    "jsdom": "^27.0.0",
+    "nock": "^14.0.11",
+    "tailwindcss": "^4",
+    "typescript": "^5",
+    "vitest": "^3.2.4"
+  },
+  "overrides": {
+    "minimatch": "^10.2.1"
+  }
+}

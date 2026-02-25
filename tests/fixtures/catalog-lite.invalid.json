@@ -1,0 +1,18 @@
+{
+  "meta": {
+    "generatedAt": "invalid-date",
+    "bucket": "",
+    "sourcePrefix": "metadata/",
+    "count": -1,
+    "version": 0
+  },
+  "tracks": [
+    {
+      "id": "",
+      "title": "",
+      "durationSeconds": -2,
+      "audioUrl": "not-a-url",
+      "imageUrl": null
+    }
+  ]
+}
